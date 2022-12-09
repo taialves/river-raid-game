@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript | Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">River<br> Raid<br><span>By Tai Alves</span>></h1>
+    
+    <section id="container">
+        
+        <div id="menu">
+            <h1>Bem Vindo ao <br>River Raid<br></h1>
+            <h5>Planetary Version</h5>
+            <img src="img/abducao.gif" alt="">
+            <div>
+                <button class="btn-iniciar">Iniciar</button>
+            </div>
+        </div> 
+
+        <div id="fim-game">
+            <h1 class="msg-fim-game">O Jogo Acabou !!!</h1>
+            <div class="placar">
+                <div class="pontos-final">
+                    <h2>Pontuação Final</h2>
+                    <h1><span class="insert-ponto"></span> </h1>
+                </div>
+                <div class="qtd-gasolina">
+                    <h2>Tanques Coletados</h2>
+                    <h1><span class="insert-tanque"></span></h1>
+                </div>
+            </div>
+            <div>
+                <button class="btn-reiniciar">Jogar Novamente</button>
+            </div>
+        </div>
+
+
+        <div id="cenario">
+            <div class="barreira"></div>
+            <div class="barreira"></div>
+            <div id="nave"></div> 
+        </div>   
+        <div id="pontuacao">
+            <div>
+                <h4>Pontuação</h4>
+                <div class="box-ponto">
+                    <h1 id="pontos"></h1>
+                </div>
+            </div>
+            <div class="gasolina">
+                <h1>Gasolina</h1>
+                <div class="gasolina-barra">
+                    <div id="barra"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="instrucoes">
+        <h2>Desvie dos obstáculos e acumule pontos !</h2>
+        <div>
+            <img src="img/7.png" width="50">
+            <h4>: Capsula de Abastecimento</h4>
+        </div>
+        <div>
+            <img src="img/5.png" width="50">
+            <h4>: Ganhe 10 pontos extras</h4>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
